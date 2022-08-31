@@ -78,6 +78,83 @@ public class Main {
         else {
             System.out.println ("Места в вагоне есть");
 
+
+            var task7= 3.1;
+
+            int age3 = 4;
+            if (age3 >=2 && age3<=6) {
+                System.out.println("Если тебе" + age3 + " то ты ходишь в детский сад");
+            } else {
+                System.out.println("Если тебе" + age3 + " то ты не ходишь в детский сад");
+
+                int age4 = 16;
+                if (age4 >=7 && age4<=18) {
+                    System.out.println("Если тебе" + age4 + " то ты ходишь школу");
+                } else {
+                    System.out.println("Если тебе" + age4 + " то ты не ходишь в школу");
+                }
+                int age5 = 20;
+                if (age5 >=18 && age5<=24) {
+                    System.out.println("Если тебе" + age5 + " то ты учишься в университете ");
+                } else {
+                    System.out.println("Если тебе" + age5 + " то ты не учишься в университете ");
+                }
+                int age6 = 25;
+                if (age6 >24){
+                    System.out.println("Если тебе"+ age6+ " то ты работаешь");
+
+                }
+                var task8= 3.2;
+                int age7 = 4;
+                if (age7 <=5) {
+                    System.out.println("Ты не можешь кататься на каруселях");
+                }else {
+                    System.out.println("Ты  можешь кататься на каруселях");
+                    int age8 = 10;
+
+                    if (age8 > 5 && age8 <= 14) {
+                        System.out.println("Ты можешь кататься на каруселях в сопровождении взрослых");
+                    } else if (age8 <= 5) {
+
+                        System.out.println(" ты не можешь кататься на каруселях");
+                    } else if (age8 > 14) {
+                        System.out.println(" ты  можешь кататься на каруселях без взрослых");
+                        int age9 = 18;
+                        if (age9 >= 18) {
+                            System.out.println("Ты  можешь кататься на каруселях без сопровождения");
+                        }
+                        var task9 = 3.3;
+                        int one = 25;
+                        int two = 45;
+                        int three = 100;
+                        if (three > two && three > one) {
+                            System.out.println("Самое большое число" + three);
+                        } else if (two > three && two > one ) {
+                            System.out.println("Самое большое число" + two);
+                        } else if (one>three && one >two) {
+                            System.out.println("Самое большое число" + one);
+                        }
+
+
+                    }
+
+
+                }
+
+
+
+
+
+
+
+
+
+
+
+            }
+
+
+
         }
 
             {
