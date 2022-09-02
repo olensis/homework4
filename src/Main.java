@@ -76,7 +76,8 @@ public class Main {
         if (capacity1>102){
             System.out.println("Мест в вагоне нет");}
         else {
-            System.out.println ("Места в вагоне есть");
+            System.out.println("Места в вагоне есть");
+        }
 
 
             var task7= 3.1;
@@ -86,6 +87,7 @@ public class Main {
                 System.out.println("Если тебе" + age3 + " то ты ходишь в детский сад");
             } else {
                 System.out.println("Если тебе" + age3 + " то ты не ходишь в детский сад");
+            }
 
                 int age4 = 16;
                 if (age4 >=7 && age4<=18) {
@@ -110,18 +112,17 @@ public class Main {
                     System.out.println("Ты не можешь кататься на каруселях");
                 }else {
                     System.out.println("Ты  можешь кататься на каруселях");
-                    int age8 = 10;
-
+                }
+        {
+                    int age8 = 17;
                     if (age8 > 5 && age8 <= 14) {
                         System.out.println("Ты можешь кататься на каруселях в сопровождении взрослых");
                     } else if (age8 <= 5) {
-
                         System.out.println(" ты не можешь кататься на каруселях");
                     } else if (age8 > 14) {
                         System.out.println(" ты  можешь кататься на каруселях без взрослых");
-                        int age9 = 18;
-                        if (age9 >= 18) {
-                            System.out.println("Ты  можешь кататься на каруселях без сопровождения");
+
+                        {
                         }
                         var task9 = 3.3;
                         int one = 25;
@@ -157,21 +158,21 @@ public class Main {
 
         }
 
-            {
-            }
-            {
-            {
-            }
-            {
-            }
 
 
-            }
 
 
-    }
 
-    }
+
+
+
+
+
+
+
+
+
+
 
 
 
